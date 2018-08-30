@@ -12,8 +12,6 @@ public class MainActivity extends AppCompatActivity {
 
     @BindView(R.id.etNombre)
     EditText etNombre;
-    @BindView(R.id.etpellido)
-    EditText etpellido;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public void onViewClicked() {
         String Nombre="";
         Nombre= etNombre.getText().toString();
-        String pellido;
-        pellido=etpellido.getText().toString();
+
 
     }
 }

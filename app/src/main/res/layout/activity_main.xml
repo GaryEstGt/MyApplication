@@ -1,43 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
 
     <EditText
         android:id="@+id/etNombre"
-        android:layout_width="368dp"
-        android:layout_height="0dp"
+        style="@android:style/Widget.Holo.Light.AutoCompleteTextView"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:selectAllOnFocus="false"
         android:singleLine="true"
-        android:text="Name"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="52dp" />
-
-    <EditText
-        android:id="@+id/etpellido"
-        android:layout_width="368dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:singleLine="true"
-        android:text="Pellido"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="129dp" />
+        android:text="cancion"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="45dp" />
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="368dp"
-        android:layout_height="47dp"
-        android:text="cepter"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="199dp" />
+        android:layout_width="107dp"
+        android:layout_height="61dp"
+        android:text="Buscar"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="118dp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -53,4 +44,4 @@
         app:barrierDirection="left"
         tools:layout_editor_absoluteX="384dp" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
